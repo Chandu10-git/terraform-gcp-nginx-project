@@ -1,6 +1,6 @@
 provider "google" {
-  project      = "project-34e4a3f5-bf8e-4879-94c"
-  region       = "us-central1"
+  project = "project-34e4a3f5-bf8e-4879-94c"
+  region  = "us-central1"
 }
 
 resource "google_compute_instance" "terraform_vm" {
